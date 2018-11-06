@@ -1,0 +1,37 @@
+$color: red;
+
+
+.text {
+  color: red;
+};
+
+div {
+
+  ol {
+    color: green;
+  };
+};
+
+#line2 {
+  background-color: $color;
+};
+
+#line2::before {
+  content: "THIS IS BEFORE TEXT";
+};
+
+h1:hover {
+  border: 3px solid black;
+};
+
+@media screen and (max-width: 500px) {
+  body{
+
+  background-color: purple;
+  };
+};
+
+#sample {
+  @extend h1;
+  color: violet;
+}

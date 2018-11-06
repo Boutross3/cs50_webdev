@@ -1,0 +1,30 @@
+.text {
+  color: red;
+}
+
+div ol {
+  color: green;
+}
+
+#line2 {
+  background-color: red;
+}
+
+#line2::before {
+  content: "THIS IS BEFORE TEXT";
+}
+
+h1:hover, #sample:hover {
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: purple;
+  }
+}
+#sample {
+  color: violet;
+}
+
+/*# sourceMappingURL=custom.css.map */
